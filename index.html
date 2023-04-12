@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Trailer Popup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <img src="https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="movie-image">
+        <h1>3 Losers Watching a Movie</h1>
+        <p>A new experience by the renowned film maker Mojo. Welcome to a new world of cinema experience.</p>
+        <button class="btn">Watch now</button>
+    </div>
+    <div class="trailer-container active">
+        <video src="trailer.mp4" controls></video> 
+        <!-- we added a video mp4 to our folder then connected it -->
+        <i class="fa-sharp fa-solid fa-xmark fa-2x close-icon" ></i>
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>
